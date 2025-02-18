@@ -1,2 +1,133 @@
-body{background-attachment:fixed;background-image:url(/static/media/background.f4811926e6c222fa023b.jpg);background-repeat:no-repeat;background-size:cover;margin:0}.header{background-color:#212121;border:solid gray;border-width:0 0 1px;list-style-type:none;margin:0;overflow:hidden;padding:0;position:fixed;top:0;width:100%}.header li{float:left}.header li a{color:#fff;display:block;padding:14px 16px;text-align:center;text-decoration:none}.header li a:hover{text-decoration:underline}.active{text-decoration:underline!important}.profile{border-radius:50%;height:25px;object-fit:cover;width:25px}.home{background-color:#fff;box-shadow:3px 3px 5px #888;margin-left:13%;margin-right:13%;min-height:100vh;padding-top:5%;position:relative}.home h1{font-size:70px;text-align:center}.home p{margin-left:200px}footer{background-color:#888;bottom:0;height:250px;margin:0;width:100%}.posterBody{align-items:center;background-color:#fff;box-shadow:3px 3px 5px #888;display:flex;flex-direction:column;height:400px;margin:0;width:300px}.picture{border-style:solid;margin:20px 0}.picture,.picture img{height:250px;width:250px}.title{font-size:30px;margin-bottom:10px;margin-top:0}.body{background-color:#fff9;box-shadow:3px 3px 5px #888;margin-left:13%;margin-right:13%;min-height:100vh;padding-top:150px;position:relative}.gridbody{grid-column-gap:30px;grid-row-gap:30px;display:grid;grid-template-columns:repeat(auto-fill,300px);justify-content:center}.etc_body{background-color:#fff;box-shadow:3px 3px 5px #888;margin-left:13%;margin-right:13%;min-height:100vh;padding-top:100px;position:relative}table{border-collapse:collapse;margin:0;width:100%}td,th{background-color:#f5f5f5;border-color:#fff;border-style:solid;border-width:1px 2px}td{height:40px}td a{color:#000;display:block;padding:10px 0 10px 10px;text-decoration:none}td a:hover{background-color:#888}
+body {
+  background-attachment:fixed;
+  background-image:url(/static/media/background.f4811926e6c222fa023b.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin:0;
+}
+.header {
+  background-color:#212121;
+  border:solid gray;
+  border-width:0 0 1px;
+  list-style-type:none;
+  margin:0;overflow:hidden;
+  padding:0;position:fixed;
+  top:0;
+  width:100%;
+}
+.header li {
+  float:left;
+}
+.header li a {
+  color:#fff;
+  display:block;
+  padding:14px 16px;
+  text-align:center;
+  text-decoration:none;
+}
+.header li a:hover {
+  text-decoration:underline;
+}
+.active {
+  text-decoration:underline!important;
+}
+.profile {
+  border-radius:50%;
+  height:25px;
+  object-fit:cover;
+  width:25px;
+}
+.home {
+  background-color:#fff;
+  box-shadow:3px 3px 5px #888;
+  margin-left:13%;
+  margin-right:13%;
+  min-height:100vh;
+  padding-top:5%;
+  position:relative;
+}
+.home h1 {
+  font-size:70px;
+  text-align:center;
+}
+.home p {
+  margin-left:200px;
+}
+footer {
+  background-color:#888;
+  bottom:0;
+  height:250px;
+  margin:0;
+  width:100%;
+}
+.posterBody {
+  align-items:center;
+  background-color:#fff;
+  box-shadow:3px 3px 5px #888;
+  display:flex;
+  flex-direction:column;
+  height:400px;
+  margin:0;
+  width:300px;
+}
+.picture {
+  border-style: solid;
+  margin: 20px 0;
+}
+.picture, .picture img {
+  height: 250px;
+  width: 250px;
+}
+.title {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+.body {
+  background-color: #fff9;
+  box-shadow: 3px 3px 5px #888;
+  margin-left: 13%;
+  margin-right: 13%;
+  min-height: 100vh;
+  padding-top: 150px;
+  position: relative;
+}
+.gridbody {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+.etc_body {
+  background-color: #fff;
+  box-shadow: 3px 3px 5px #888;
+  margin-left: 13%;
+  margin-right: 13%;
+  min-height: 100vh;
+  padding-top: 100px;
+  position: relative;
+}
+table {
+  border-collapse: collapse;
+  margin: 0;
+  width: 100%;
+}
+td, th {
+  background-color: #f5f5f5;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px 2px;
+}
+td {
+  height: 40px;
+}
+td a {
+  color: #000;
+  display: block;
+  padding: 10px 0 10px 10px;
+  text-decoration: none;
+}
+td a:hover {
+  background-color: #888;
+}
 /*# sourceMappingURL=main.7468f294.css.map*/
