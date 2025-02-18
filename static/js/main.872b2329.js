@@ -8203,7 +8203,7 @@
                     className: "body",
                     children: [(0, ce.jsxs)("div", {
                         className: "gridbody",
-                        children: [he("python", "./_img/python.jpg", "/Post/python"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/"), he(1, "", "/"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/"), he(1, "", "/"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/")]
+                        children: [he("python", "/_img/python.jpg", "/Post/python"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/"), he(1, "", "/"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/"), he(1, "", "/"), he(2, "", "/"), he(3, "", "/"), he(4, "", "/")]
                     }), (0, ce.jsx)("div", {
                         style: {
                             paddingTop: "100%"
